@@ -5,7 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
 public class EchoApplication {
-
+public  String port = System.getenv("PORT");
 	public static void main(String[] args) {
 		SpringApplication.run(EchoApplication.class, args); 
 	}
