@@ -37,8 +37,8 @@ public class EmailService {
         simpleEmail.setSmtpPort(465);
 
         simpleEmail.setAuthenticator(new DefaultAuthenticator("uniriobicicleta@gmail.com", "kweeemnsiwxdiofs"));
-        simpleEmail.setSSLOnConnect(false);
-        simpleEmail.setSSLCheckServerIdentity(false);
+        simpleEmail.setSSLOnConnect(true);
+        simpleEmail.setSSLCheckServerIdentity(true);
 
         simpleEmail.setFrom("pmgus20212@gmail.com");
         simpleEmail.setSubject("Email de PM");
