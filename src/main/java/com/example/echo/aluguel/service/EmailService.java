@@ -40,7 +40,7 @@ public class EmailService {
         simpleEmail.setSSLOnConnect(true);
         simpleEmail.setSSLCheckServerIdentity(true);
 
-        simpleEmail.setFrom("pmgus20212@gmail.com");
+        simpleEmail.setFrom("uniriobicicleta@gmail.com");
         simpleEmail.setSubject("Email de PM");
         simpleEmail.setMsg(email.getMensagem());
         simpleEmail.addTo(email.getEmail());
